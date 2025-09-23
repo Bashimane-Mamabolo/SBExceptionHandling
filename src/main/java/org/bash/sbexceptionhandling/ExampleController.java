@@ -8,7 +8,7 @@ public class ExampleController {
 
     @GetMapping
     public String hello() {
-        int result = 1 / 0;
+        int result = 2 / 0;
         return "Division by zero";
     }
 }
